@@ -305,7 +305,7 @@ class Web3PaymentManager:
     
     def __init__(self, contract_address: str = None, rpc_url: str = "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"):
         self.rpc_url = rpc_url
-        self.contract_address = contract_address or "0xYourWalletAddressHere"
+        self.contract_address = contract_address or "0x5F7a2FA723A994af8445301b2E46a6EE8c85cAe8"
         self.price_per_action = 0.50
     
     def _get_eth_price(self):
